@@ -15,12 +15,12 @@ function pantalla(arr) {
     
     `
     <img src="${arr[i].Imagen}" " width="150">
-    <p><b><h2>
-    "${arr[i].Nombre}"</h2></b>
+    <p><b><h4>
+    "${arr[i].Nombre}"</h4></b>
     </p>
     `
-
-  parapantalla.appendChild(tarjeta)      
+;
+  parapantalla.appendChild(tarjeta);      
    }
 }
 simpson()
