@@ -4,7 +4,7 @@ const listado = document.getElementById ("listado");
 
 
 
-function simpson() {fetch("https://apisimpsons.fly.dev/api/personajes?limit=720&page=1")
+function simpson() {fetch("https://apisimpsons.fly.dev/api/personajes?limit=20&page=1")
 .then(res => res.json())
 .then (datoslistos => pantalla(datoslistos.docs))
 
