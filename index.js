@@ -14,9 +14,9 @@ function pantalla(arr) {
     
     
     `
-    <img src="${arr[i].Imagen}" " width="100">
-    <p><b>
-    "${arr[i].Nombre}"</b>
+    <img src="${arr[i].Imagen}" " width="150">
+    <p><b><h2>
+    "${arr[i].Nombre}"</h2></b>
     </p>
     `
 
