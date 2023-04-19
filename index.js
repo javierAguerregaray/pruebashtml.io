@@ -15,8 +15,9 @@ function pantalla(arr) {
     
     `
     <img src="${arr[i].Imagen}" " width="100">
+    <p>
     "${arr[i].Nombre}"
-    
+    </p>
     `
 
   parapantalla.appendChild(tarjeta)      
