@@ -19,13 +19,16 @@ function pantalla(arr) {
     <p><b><h4>
     "${arr[i].Nombre}"</h4></b>
     </p>
-    <button id="boton" class="btn btn-secondary">comprar</button>
+
+   
     `
 ;
   parapantalla.appendChild(tarjeta);      
    }
 }
-
+/* ver para imprimir 
+https://www.tictacsoluciones.com/blog/boton-para-imprimir-pagina-web-con-javascript
+*/
 
 simpson()
 pantalla()
